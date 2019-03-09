@@ -15,24 +15,21 @@ namespace FilerySearch.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult FileSearch()
         {
-            ViewData["Message"] = "Your application description page.";
+            //ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult FolderSearch()
         {
-            ViewData["Message"] = "Your contact page.";
+           //ViewData["Message"] = "Your contact page.";
 
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

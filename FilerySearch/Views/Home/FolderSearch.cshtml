@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Search Across Folder Files";
+}
+
+
+<body>
+    <h1>@ViewData["Title"]</h1>
+
+    <form method="post">
+
+        <div id="SearchParamsContainer">
+            <div class="form-group">
+                <!-- Date input -->
+                <label class="control-label" for="date">Date</label>
+                <input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text" />
+            </div>
+
+            <div>From</div>
+            <div>To</div>
+
+
+            <div>ListBox with words to search </div>
+
+
+            <div>Match all words check box</div>
+
+
+        </div>
+
+        <div id="searchResultsContainer">
+            <div class="searchParamsRow">
+                <div class="searchParamsCol" id="searchResultHeadline">
+                    <%--Search Results: --%>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <!-- Submit button -->
+            <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+        </div>
+
+    </form>
+
+
+</body>
+
