@@ -2,21 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "jQuery/1.4.4": {
-        "type": "package"
-      },
-      "jQuery.UI.Core/1.8.9": {
-        "type": "package",
-        "dependencies": {
-          "jQuery": "[1.4.4, 1.6.0)"
-        }
-      },
-      "jQuery.UI.Widgets.Datepicker/1.8.9": {
-        "type": "package",
-        "dependencies": {
-          "jQuery.UI.Core": "[1.8.9]"
-        }
-      },
       "Microsoft.AspNetCore.Razor.Language/2.2.0": {
         "type": "package",
         "compile": {
@@ -2615,8 +2600,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0",
-          "jQuery.UI.Widgets.Datepicker": "1.8.9"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0"
         },
         "compile": {
           "bin/placeholder/FilerySearch.dll": {}
@@ -2628,46 +2612,6 @@
     }
   },
   "libraries": {
-    "jQuery/1.4.4": {
-      "sha512": "kexCeYIZehR5fRjo8CK1sngN5SZEQRFNfCYZHMS1RxwEEiSKetBw/gliYJcLJdJEBB+e9aHqleLCjuaSI7u23g==",
-      "type": "package",
-      "path": "jquery/1.4.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Content/Scripts/jquery-1.4.4-vsdoc.js",
-        "Content/Scripts/jquery-1.4.4.js",
-        "Content/Scripts/jquery-1.4.4.min.js",
-        "jquery.1.4.4.nupkg.sha512",
-        "jquery.nuspec"
-      ]
-    },
-    "jQuery.UI.Core/1.8.9": {
-      "sha512": "Sib0IXtCSVnA9wX6i0enHxHTZmBW0mLncfjtjjU3wWUMnQgmTxlenvOZBKUqpFjA0/nFQgsJqsANO74YphTc+g==",
-      "type": "package",
-      "path": "jquery.ui.core/1.8.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Content/Scripts/jquery.ui.core.js",
-        "Content/Scripts/jquery.ui.core.min.js",
-        "jquery.ui.core.1.8.9.nupkg.sha512",
-        "jquery.ui.core.nuspec"
-      ]
-    },
-    "jQuery.UI.Widgets.Datepicker/1.8.9": {
-      "sha512": "cA1RW6ms1azPhXg6OKFptRPljO1Pky8WsUo57AHfHVIUvVZZA1GZ7Iygu9Sc+y33Mq7wncX9+hruDgzUm34N7w==",
-      "type": "package",
-      "path": "jquery.ui.widgets.datepicker/1.8.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Content/Scripts/jquery.ui.datepicker.js",
-        "Content/Scripts/jquery.ui.datepicker.min.js",
-        "jquery.ui.widgets.datepicker.1.8.9.nupkg.sha512",
-        "jquery.ui.widgets.datepicker.nuspec"
-      ]
-    },
     "Microsoft.AspNetCore.Razor.Language/2.2.0": {
       "sha512": "zW2jJWCnijyoZqL3a4W5zuvObFluZ7dvZeasbZVhBc8h1ZD4INufdpWXgtxceiu5wqfnedH+mzGTUdM4jNccUQ==",
       "type": "package",

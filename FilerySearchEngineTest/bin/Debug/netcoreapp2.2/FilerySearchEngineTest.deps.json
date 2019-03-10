@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "c827c1558d46c938ea174599537f68dac75b5de0"
+    "signature": "f0e2657659a292cae3c14d8de7c58f42b3a7c205"
   },
   "compilationOptions": {},
   "targets": {
@@ -15,17 +15,6 @@
         },
         "runtime": {
           "FilerySearchEngineTest.dll": {}
-        }
-      },
-      "jQuery/1.4.4": {},
-      "jQuery.UI.Core/1.8.9": {
-        "dependencies": {
-          "jQuery": "1.4.4"
-        }
-      },
-      "jQuery.UI.Widgets.Datepicker/1.8.9": {
-        "dependencies": {
-          "jQuery.UI.Core": "1.8.9"
         }
       },
       "Microsoft.AspNetCore.Razor.Language/2.2.0": {
@@ -1802,8 +1791,7 @@
       },
       "FilerySearch/1.0.0": {
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0",
-          "jQuery.UI.Widgets.Datepicker": "1.8.9"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0"
         },
         "runtime": {
           "FilerySearch.dll": {}
@@ -1816,27 +1804,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "jQuery/1.4.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kexCeYIZehR5fRjo8CK1sngN5SZEQRFNfCYZHMS1RxwEEiSKetBw/gliYJcLJdJEBB+e9aHqleLCjuaSI7u23g==",
-      "path": "jquery/1.4.4",
-      "hashPath": "jquery.1.4.4.nupkg.sha512"
-    },
-    "jQuery.UI.Core/1.8.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Sib0IXtCSVnA9wX6i0enHxHTZmBW0mLncfjtjjU3wWUMnQgmTxlenvOZBKUqpFjA0/nFQgsJqsANO74YphTc+g==",
-      "path": "jquery.ui.core/1.8.9",
-      "hashPath": "jquery.ui.core.1.8.9.nupkg.sha512"
-    },
-    "jQuery.UI.Widgets.Datepicker/1.8.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cA1RW6ms1azPhXg6OKFptRPljO1Pky8WsUo57AHfHVIUvVZZA1GZ7Iygu9Sc+y33Mq7wncX9+hruDgzUm34N7w==",
-      "path": "jquery.ui.widgets.datepicker/1.8.9",
-      "hashPath": "jquery.ui.widgets.datepicker.1.8.9.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/2.2.0": {
       "type": "package",
