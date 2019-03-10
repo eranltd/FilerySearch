@@ -24,10 +24,6 @@ namespace FilerySearchService
         /// <summary>
         /// 
         /// </summary>
-        //public FileR2NetDateFormat FileNameDate { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
         public List<MatchedSentence> MatchedLines { get; set; } //matchedWord, lineNumber, lineContent
 
 
@@ -37,7 +33,7 @@ namespace FilerySearchService
         /// </summary>
         /// <param name="searchWords"></param>
         /// <param name="mustMatchAllSearchWords"></param>
-        public void FindAndSetDictOccrencesInFile(List<string> searchWords, bool mustMatchAllSearchWords = false)
+        public void FindAndSetDictOccrencesInFile(List<string> searchWords, bool mustMatchAllSearchWords = true)
         {
             int lineCount = 1;
             if (File.Exists(FilePath))

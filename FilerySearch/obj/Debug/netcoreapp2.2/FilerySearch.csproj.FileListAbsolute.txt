@@ -3,10 +3,8 @@ C:\Projects\FilerySearch\FilerySearch\bin\Debug\netcoreapp2.2\FilerySearch.runti
 C:\Projects\FilerySearch\FilerySearch\bin\Debug\netcoreapp2.2\FilerySearch.runtimeconfig.dev.json
 C:\Projects\FilerySearch\FilerySearch\bin\Debug\netcoreapp2.2\FilerySearch.dll
 C:\Projects\FilerySearch\FilerySearch\bin\Debug\netcoreapp2.2\FilerySearch.pdb
-C:\Projects\FilerySearch\FilerySearch\bin\Debug\netcoreapp2.2\FilerySearch.xml
 C:\Projects\FilerySearch\FilerySearch\bin\Debug\netcoreapp2.2\FilerySearch.Views.dll
 C:\Projects\FilerySearch\FilerySearch\bin\Debug\netcoreapp2.2\FilerySearch.Views.pdb
-C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.csprojAssemblyReference.cache
 C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.csproj.CoreCompileInputs.cache
 C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.RazorAssemblyInfo.cache
 C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.RazorAssemblyInfo.cs
@@ -30,3 +28,4 @@ C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.Views
 C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.dll
 C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.pdb
 C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.csproj.CopyComplete
+C:\Projects\FilerySearch\FilerySearch\obj\Debug\netcoreapp2.2\FilerySearch.csprojAssemblyReference.cache

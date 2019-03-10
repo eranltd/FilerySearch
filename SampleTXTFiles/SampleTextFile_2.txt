@@ -1,0 +1,10 @@
+DateTime today = DateTime.Now.Date ;
+FileInfo[] todaysFiles = new DirectoryInfo(@"c:\foo\bar")
+                         .EnumerateFiles()
+                         .Select( x => {
+                            x.Refresh();
+                            return x;
+                         })
+                         .Where( x => x.CreationTime.Date == today || x.LastWriteTime == today )
+                         .ToArray()
+                         ;
