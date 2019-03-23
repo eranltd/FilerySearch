@@ -21,4 +21,9 @@
   <ItemGroup>
     <Folder Include="ApplicationCore\Interfaces\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\FilerySearch.js" />
+    <None Include="wwwroot\js\FolderSearch.js" />
+  </ItemGroup>
 </Project>

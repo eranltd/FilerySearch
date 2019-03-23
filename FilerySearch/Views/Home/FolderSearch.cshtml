@@ -2,47 +2,102 @@
     ViewData["Title"] = "Search Across Folder Files";
 }
 
-
 <body>
     <h1>@ViewData["Title"]</h1>
 
-    <form method="post">
+    @*<form method="post" enctype="multipart/form-data" asp-controller="FilerySearchController" asp-action="PostSearchInFiles">*@
 
-        <div id="SearchParamsContainer">
-            <div class="form-group">
+    <div class="SearchParamsContainer">
+        <div class="row">
+            <div class="col-md-6">
                 <!-- Date input -->
-                <label class="control-label" for="date">Date</label>
-                <input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text" />
+                <div class='input-group date'>
+
+                    <label class="control-label" for="frmDate">From Date:</label>
+                    <input class="form-control" id='frmDate' name="date" @*placeholder="DD/MM/YYYY HH:MM:SS"*@ type="text"><span class="glyphicon glyphicon-calendar"></span>
+
+
+
+                </div>
             </div>
+            <div class="col-md-6">
+                <!-- Date input -->
+                <div class='input-group date'>
 
-            <div>From</div>
-            <div>To</div>
+                    <label class="control-label" for="toDate">To Date:</label>
+                    <input class="form-control" id='toDate' name="date" @*placeholder="DD/MM/YYYY HH:MM:SS"*@ type="text"><span class="glyphicon glyphicon-calendar"></span>
 
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <div>ListBox with words to search </div>
+    @*<!-- Notice this following line -->
+        <hr class="my-2">
 
-
-            <div>Match all words check box</div>
-
+        <div class="row">
+            <div class="col-md-10">
+                <!-- Date input -->
+                List of Words will inserted here...
+            </div>
 
         </div>
 
-        <div id="searchResultsContainer">
-            <div class="searchParamsRow">
-                <div class="searchParamsCol" id="searchResultHeadline">
-                    <%--Search Results: --%>
+        <hr class="my-2">
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <p>Choose folder to search files within...</p>
+                        <input class="form-control" type="file" id="filepicker" name="fileList" webkitdirectory multiple />
+                    </div>
                 </div>
 
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <input class="form-control" type="submit" value="Upload" />
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            <!-- Submit button -->
-            <button class="btn btn-primary " name="submit" type="submit">Submit</button>
-        </div>
+            <hr class="my-2">
 
-    </form>
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="">
+                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                            Option one is this and that — be sure to include why it's great
+                        </label>
+                    </div>
+                </div>
+
+
+
+            </div>*@
+
+
+
+    @*</div>*@
+
+
+    @*</div>
+
+            <hr class="my-3">
+
+            <div class="SearchParamsContainer">
+                <div class="row">
+                    <div class="col-lg-10" id="queryResult"></div>
+
+                </div>
+            </div>
+        </form>*@
 
 
 </body>
+<script src="~/js/FolderSearch.js" asp-append-version="true"></script>
 
